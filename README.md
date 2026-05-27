@@ -1,6 +1,6 @@
 # DUMP converter
 
-© Desarrollado en 2016
+![2016](https://shields.io)
 
 Esta herramienta toma un archivo con contenido SQL y lo optimiza para que sea mas rapido de ejecutar:
 - Cambia todos los insert individuales a multi-insert.
