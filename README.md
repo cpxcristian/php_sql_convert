@@ -1,12 +1,10 @@
-# DUMP converter
+# MySQL Converter
 
-![2016](https://shields.io)
-
-Esta herramienta toma un archivo con contenido SQL y lo optimiza para que sea mas rapido de ejecutar:
-- Cambia todos los insert individuales a multi-insert.
+Esta herramienta toma un archivo con contenido SQL y lo optimiza para que sea más rápido de ejecutar:
+- Convierte todos los insert individuales a multi-insert.
 - Divide los insert en bloques según el usuario ingrese para que no tenga problemas en la ejecución.
 
-## Cómo utilizar
+## Ejecución
 
 ```bash
 php -S localhost:8000
